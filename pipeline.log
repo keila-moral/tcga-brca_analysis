@@ -1,0 +1,514 @@
+Processing Pipeline Started...
+Waiting for image patches to appear in data/processed/patches...
+Data detected! Waiting an extra minute to ensure initial batch is ready...
+----------------------------------------------------------------
+Phase 1: Starting Survival Prediction Training (Baseline)
+----------------------------------------------------------------
+Training on cpu
+DEBUG: Slide to Case Map Size: 5
+DEBUG: Found 5 slide folders in data/processed/patches
+DEBUG: Imputed event=1 for 444374f8-9282-439c-af00-0f828edcbff3 (Prototype Mode)
+DEBUG: Imputed stage 3.0 for TCGA-C8-A1HI-01Z-00-DX1.C6D0F8B8-55ED-477F-BAF7-AA05D0449CC8
+DEBUG: Adding 20 patches for TCGA-C8-A1HI-01Z-00-DX1.C6D0F8B8-55ED-477F-BAF7-AA05D0449CC8
+DEBUG: SKIP TCGA-E2-A14P-01Z-00-DX1.663B02FF-C64B-41A6-8685-FD61CD76F9C6 - No PNG patches found
+DEBUG: Imputed event=1 for 6f959c92-b79f-4f84-9ee5-d07d3212d52d (Prototype Mode)
+DEBUG: Imputed stage 0.0 for TCGA-A8-A09K-01Z-00-DX1.41B2DF5F-C0E1-43BB-BAA5-2946A9EC4650
+DEBUG: Adding 20 patches for TCGA-A8-A09K-01Z-00-DX1.41B2DF5F-C0E1-43BB-BAA5-2946A9EC4650
+DEBUG: Imputed event=1 for 16fc3677-0393-4ed1-ad3f-c8355f056369 (Prototype Mode)
+DEBUG: Imputed stage 3.0 for TCGA-5L-AAT1-01Z-00-DX1.F3449A5B-2AC4-4ED7-BF44-4C8946CDB47D
+DEBUG: Adding 20 patches for TCGA-5L-AAT1-01Z-00-DX1.F3449A5B-2AC4-4ED7-BF44-4C8946CDB47D
+DEBUG: Imputed event=1 for 09765b0a-94f6-47d2-af56-93368084ac3a (Prototype Mode)
+DEBUG: Imputed stage 3.0 for TCGA-A7-A0CD-01Z-00-DX1.F045B9C8-049C-41BF-8432-EF89F236D34D
+DEBUG: Adding 40 patches for TCGA-A7-A0CD-01Z-00-DX1.F045B9C8-049C-41BF-8432-EF89F236D34D
+DEBUG: Unique cases before split: 4 -> ['09765b0a-94f6-47d2-af56-93368084ac3a', '16fc3677-0393-4ed1-ad3f-c8355f056369', '444374f8-9282-439c-af00-0f828edcbff3', '6f959c92-b79f-4f84-9ee5-d07d3212d52d']
+Initialized train dataset with 80 patches from 3 patients (Total pool: 4).
+DEBUG: Split Patient IDs: ['09765b0a-94f6-47d2-af56-93368084ac3a', '16fc3677-0393-4ed1-ad3f-c8355f056369', '444374f8-9282-439c-af00-0f828edcbff3']
+DEBUG: Slide to Case Map Size: 5
+DEBUG: Found 5 slide folders in data/processed/patches
+DEBUG: Imputed event=1 for 444374f8-9282-439c-af00-0f828edcbff3 (Prototype Mode)
+DEBUG: Imputed stage 3.0 for TCGA-C8-A1HI-01Z-00-DX1.C6D0F8B8-55ED-477F-BAF7-AA05D0449CC8
+DEBUG: Adding 20 patches for TCGA-C8-A1HI-01Z-00-DX1.C6D0F8B8-55ED-477F-BAF7-AA05D0449CC8
+DEBUG: SKIP TCGA-E2-A14P-01Z-00-DX1.663B02FF-C64B-41A6-8685-FD61CD76F9C6 - No PNG patches found
+DEBUG: Imputed event=1 for 6f959c92-b79f-4f84-9ee5-d07d3212d52d (Prototype Mode)
+DEBUG: Imputed stage 3.0 for TCGA-A8-A09K-01Z-00-DX1.41B2DF5F-C0E1-43BB-BAA5-2946A9EC4650
+DEBUG: Adding 20 patches for TCGA-A8-A09K-01Z-00-DX1.41B2DF5F-C0E1-43BB-BAA5-2946A9EC4650
+DEBUG: Imputed event=1 for 16fc3677-0393-4ed1-ad3f-c8355f056369 (Prototype Mode)
+DEBUG: Imputed stage 0.0 for TCGA-5L-AAT1-01Z-00-DX1.F3449A5B-2AC4-4ED7-BF44-4C8946CDB47D
+DEBUG: Adding 20 patches for TCGA-5L-AAT1-01Z-00-DX1.F3449A5B-2AC4-4ED7-BF44-4C8946CDB47D
+DEBUG: Imputed event=1 for 09765b0a-94f6-47d2-af56-93368084ac3a (Prototype Mode)
+DEBUG: Imputed stage 0.0 for TCGA-A7-A0CD-01Z-00-DX1.F045B9C8-049C-41BF-8432-EF89F236D34D
+DEBUG: Adding 40 patches for TCGA-A7-A0CD-01Z-00-DX1.F045B9C8-049C-41BF-8432-EF89F236D34D
+DEBUG: Unique cases before split: 4 -> ['09765b0a-94f6-47d2-af56-93368084ac3a', '16fc3677-0393-4ed1-ad3f-c8355f056369', '444374f8-9282-439c-af00-0f828edcbff3', '6f959c92-b79f-4f84-9ee5-d07d3212d52d']
+Initialized val dataset with 20 patches from 1 patients (Total pool: 4).
+DEBUG: Split Patient IDs: ['6f959c92-b79f-4f84-9ee5-d07d3212d52d']
+DEBUG: Batch Events: 32.0/32
+Epoch 1/80, Train Loss: 2.2932
+Epoch 1/80, Val Loss: 2.1265
+Saved best model.
+Epoch 2/80, Train Loss: 2.1410
+Epoch 2/80, Val Loss: 2.2453
+Epoch 3/80, Train Loss: 2.0087
+Epoch 3/80, Val Loss: 2.3057
+Epoch 4/80, Train Loss: 2.0536
+Epoch 4/80, Val Loss: 2.3344
+Epoch 5/80, Train Loss: 1.8158
+Epoch 5/80, Val Loss: 2.3439
+Epoch 6/80, Train Loss: 1.7536
+Epoch 6/80, Val Loss: 2.4465
+Epoch 7/80, Train Loss: 1.7768
+Epoch 7/80, Val Loss: 2.6223
+Epoch 8/80, Train Loss: 1.6851
+Epoch 8/80, Val Loss: 2.8695
+Epoch 9/80, Train Loss: 1.7652
+Epoch 9/80, Val Loss: 2.9424
+Epoch 10/80, Train Loss: 1.6947
+Epoch 10/80, Val Loss: 2.7510
+Epoch 11/80, Train Loss: 1.6536
+Epoch 11/80, Val Loss: 2.6127
+Epoch 12/80, Train Loss: 1.5935
+Epoch 12/80, Val Loss: 2.6084
+Epoch 13/80, Train Loss: 1.6620
+Epoch 13/80, Val Loss: 2.5809
+Epoch 14/80, Train Loss: 1.6992
+Epoch 14/80, Val Loss: 2.5045
+Epoch 15/80, Train Loss: 1.7460
+Epoch 15/80, Val Loss: 2.5560
+Epoch 16/80, Train Loss: 1.6829
+Epoch 16/80, Val Loss: 2.6482
+Epoch 17/80, Train Loss: 1.5755
+Epoch 17/80, Val Loss: 2.7445
+Epoch 18/80, Train Loss: 1.7498
+Epoch 18/80, Val Loss: 2.6932
+Epoch 19/80, Train Loss: 1.6502
+Epoch 19/80, Val Loss: 2.6170
+Epoch 20/80, Train Loss: 1.8460
+Epoch 20/80, Val Loss: 2.4945
+Epoch 21/80, Train Loss: 1.7018
+Epoch 21/80, Val Loss: 2.4251
+Epoch 22/80, Train Loss: 1.6313
+Epoch 22/80, Val Loss: 2.4800
+Epoch 23/80, Train Loss: 1.6382
+Epoch 23/80, Val Loss: 2.5390
+Epoch 24/80, Train Loss: 1.6764
+Epoch 24/80, Val Loss: 2.5929
+Epoch 25/80, Train Loss: 1.6410
+Epoch 25/80, Val Loss: 2.5824
+Epoch 26/80, Train Loss: 1.6716
+Epoch 26/80, Val Loss: 2.5638
+Epoch 27/80, Train Loss: 1.6509
+Epoch 27/80, Val Loss: 2.5227
+Epoch 28/80, Train Loss: 1.5662
+Epoch 28/80, Val Loss: 2.4600
+Epoch 29/80, Train Loss: 1.5616
+Epoch 29/80, Val Loss: 2.4004
+Epoch 30/80, Train Loss: 1.6048
+Epoch 30/80, Val Loss: 2.3423
+Epoch 31/80, Train Loss: 1.6852
+Epoch 31/80, Val Loss: 2.3343
+Epoch 32/80, Train Loss: 1.7655
+Epoch 32/80, Val Loss: 2.3976
+Epoch 33/80, Train Loss: 1.6330
+Epoch 33/80, Val Loss: 2.4565
+Epoch 34/80, Train Loss: 1.6063
+Epoch 34/80, Val Loss: 2.4682
+Epoch 35/80, Train Loss: 1.5742
+Epoch 35/80, Val Loss: 2.4448
+Epoch 36/80, Train Loss: 1.6456
+Epoch 36/80, Val Loss: 2.4447
+Epoch 37/80, Train Loss: 1.5559
+Epoch 37/80, Val Loss: 2.4494
+Epoch 38/80, Train Loss: 1.7309
+Epoch 38/80, Val Loss: 2.4731
+Epoch 39/80, Train Loss: 1.6089
+Epoch 39/80, Val Loss: 2.5123
+Epoch 40/80, Train Loss: 1.5488
+Epoch 40/80, Val Loss: 2.5422
+Epoch 41/80, Train Loss: 1.5594
+Epoch 41/80, Val Loss: 2.5213
+Epoch 42/80, Train Loss: 1.6773
+Epoch 42/80, Val Loss: 2.3953
+Epoch 43/80, Train Loss: 1.5689
+Epoch 43/80, Val Loss: 2.2815
+Epoch 44/80, Train Loss: 1.6670
+Epoch 44/80, Val Loss: 2.2317
+Epoch 45/80, Train Loss: 1.6304
+Epoch 45/80, Val Loss: 2.2127
+Epoch 46/80, Train Loss: 1.7449
+Epoch 46/80, Val Loss: 2.2431
+Epoch 47/80, Train Loss: 1.5101
+Epoch 47/80, Val Loss: 2.3287
+Epoch 48/80, Train Loss: 1.6765
+Epoch 48/80, Val Loss: 2.4046
+Epoch 49/80, Train Loss: 1.6885
+Epoch 49/80, Val Loss: 2.4652
+Epoch 50/80, Train Loss: 1.5210
+Epoch 50/80, Val Loss: 2.5233
+Epoch 51/80, Train Loss: 1.6093
+Epoch 51/80, Val Loss: 2.5490
+Epoch 52/80, Train Loss: 1.5154
+Epoch 52/80, Val Loss: 2.5311
+Epoch 53/80, Train Loss: 1.6320
+Epoch 53/80, Val Loss: 2.5017
+Epoch 54/80, Train Loss: 1.6501
+Epoch 54/80, Val Loss: 2.4305
+Epoch 55/80, Train Loss: 1.5442
+Epoch 55/80, Val Loss: 2.3673
+Epoch 56/80, Train Loss: 1.5846
+Epoch 56/80, Val Loss: 2.3305
+Epoch 57/80, Train Loss: 1.5812
+Epoch 57/80, Val Loss: 2.3058
+Epoch 58/80, Train Loss: 1.6641
+Epoch 58/80, Val Loss: 2.3171
+Epoch 59/80, Train Loss: 1.5956
+Epoch 59/80, Val Loss: 2.3586
+Epoch 60/80, Train Loss: 1.5208
+Epoch 60/80, Val Loss: 2.3700
+Epoch 61/80, Train Loss: 1.5571
+Epoch 61/80, Val Loss: 2.3885
+Epoch 62/80, Train Loss: 1.8534
+Epoch 62/80, Val Loss: 2.4019
+Epoch 63/80, Train Loss: 1.4925
+Epoch 63/80, Val Loss: 2.3940
+Epoch 64/80, Train Loss: 1.6519
+Epoch 64/80, Val Loss: 2.3805
+Epoch 65/80, Train Loss: 1.5953
+Epoch 65/80, Val Loss: 2.3654
+Epoch 66/80, Train Loss: 1.5783
+Epoch 66/80, Val Loss: 2.3263
+Epoch 67/80, Train Loss: 1.5556
+Epoch 67/80, Val Loss: 2.3012
+Epoch 68/80, Train Loss: 1.5854
+Epoch 68/80, Val Loss: 2.3095
+Epoch 69/80, Train Loss: 1.6159
+Epoch 69/80, Val Loss: 2.3446
+Epoch 70/80, Train Loss: 1.6787
+Epoch 70/80, Val Loss: 2.3672
+Epoch 71/80, Train Loss: 1.5284
+Epoch 71/80, Val Loss: 2.3990
+Epoch 72/80, Train Loss: 1.5314
+Epoch 72/80, Val Loss: 2.4227
+Epoch 73/80, Train Loss: 1.5675
+Epoch 73/80, Val Loss: 2.4314
+Epoch 74/80, Train Loss: 1.6673
+Epoch 74/80, Val Loss: 2.3850
+Epoch 75/80, Train Loss: 1.5914
+Epoch 75/80, Val Loss: 2.3160
+Epoch 76/80, Train Loss: 1.5831
+Epoch 76/80, Val Loss: 2.2625
+Epoch 77/80, Train Loss: 1.4503
+Epoch 77/80, Val Loss: 2.2426
+Epoch 78/80, Train Loss: 1.5890
+Epoch 78/80, Val Loss: 2.2262
+Epoch 79/80, Train Loss: 1.4912
+Epoch 79/80, Val Loss: 2.2400
+Epoch 80/80, Train Loss: 1.5220
+Epoch 80/80, Val Loss: 2.2704
+Training complete.
+----------------------------------------------------------------
+Phase 2: Starting Multimodal Fusion Training
+----------------------------------------------------------------
+Training Fusion Model on cpu
+DEBUG: Slide to Case Map Size: 5
+DEBUG: Found 5 slide folders in data/processed/patches
+DEBUG: Imputed event=1 for 444374f8-9282-439c-af00-0f828edcbff3 (Prototype Mode)
+DEBUG: Imputed stage 0.0 for TCGA-C8-A1HI-01Z-00-DX1.C6D0F8B8-55ED-477F-BAF7-AA05D0449CC8
+DEBUG: Adding 20 patches for TCGA-C8-A1HI-01Z-00-DX1.C6D0F8B8-55ED-477F-BAF7-AA05D0449CC8
+DEBUG: SKIP TCGA-E2-A14P-01Z-00-DX1.663B02FF-C64B-41A6-8685-FD61CD76F9C6 - No PNG patches found
+DEBUG: Imputed event=1 for 6f959c92-b79f-4f84-9ee5-d07d3212d52d (Prototype Mode)
+DEBUG: Imputed stage 0.0 for TCGA-A8-A09K-01Z-00-DX1.41B2DF5F-C0E1-43BB-BAA5-2946A9EC4650
+DEBUG: Adding 20 patches for TCGA-A8-A09K-01Z-00-DX1.41B2DF5F-C0E1-43BB-BAA5-2946A9EC4650
+DEBUG: Imputed event=1 for 16fc3677-0393-4ed1-ad3f-c8355f056369 (Prototype Mode)
+DEBUG: Imputed stage 3.0 for TCGA-5L-AAT1-01Z-00-DX1.F3449A5B-2AC4-4ED7-BF44-4C8946CDB47D
+DEBUG: Adding 20 patches for TCGA-5L-AAT1-01Z-00-DX1.F3449A5B-2AC4-4ED7-BF44-4C8946CDB47D
+DEBUG: Imputed event=1 for 09765b0a-94f6-47d2-af56-93368084ac3a (Prototype Mode)
+DEBUG: Imputed stage 0.0 for TCGA-A7-A0CD-01Z-00-DX1.F045B9C8-049C-41BF-8432-EF89F236D34D
+DEBUG: Adding 40 patches for TCGA-A7-A0CD-01Z-00-DX1.F045B9C8-049C-41BF-8432-EF89F236D34D
+DEBUG: Unique cases before split: 4 -> ['09765b0a-94f6-47d2-af56-93368084ac3a', '16fc3677-0393-4ed1-ad3f-c8355f056369', '444374f8-9282-439c-af00-0f828edcbff3', '6f959c92-b79f-4f84-9ee5-d07d3212d52d']
+Initialized train dataset with 80 patches from 3 patients (Total pool: 4).
+DEBUG: Split Patient IDs: ['09765b0a-94f6-47d2-af56-93368084ac3a', '16fc3677-0393-4ed1-ad3f-c8355f056369', '444374f8-9282-439c-af00-0f828edcbff3']
+DEBUG: Slide to Case Map Size: 5
+DEBUG: Found 5 slide folders in data/processed/patches
+DEBUG: Imputed event=1 for 444374f8-9282-439c-af00-0f828edcbff3 (Prototype Mode)
+DEBUG: Imputed stage 0.0 for TCGA-C8-A1HI-01Z-00-DX1.C6D0F8B8-55ED-477F-BAF7-AA05D0449CC8
+DEBUG: Adding 20 patches for TCGA-C8-A1HI-01Z-00-DX1.C6D0F8B8-55ED-477F-BAF7-AA05D0449CC8
+DEBUG: SKIP TCGA-E2-A14P-01Z-00-DX1.663B02FF-C64B-41A6-8685-FD61CD76F9C6 - No PNG patches found
+DEBUG: Imputed event=1 for 6f959c92-b79f-4f84-9ee5-d07d3212d52d (Prototype Mode)
+DEBUG: Imputed stage 3.0 for TCGA-A8-A09K-01Z-00-DX1.41B2DF5F-C0E1-43BB-BAA5-2946A9EC4650
+DEBUG: Adding 20 patches for TCGA-A8-A09K-01Z-00-DX1.41B2DF5F-C0E1-43BB-BAA5-2946A9EC4650
+DEBUG: Imputed event=1 for 16fc3677-0393-4ed1-ad3f-c8355f056369 (Prototype Mode)
+DEBUG: Imputed stage 0.0 for TCGA-5L-AAT1-01Z-00-DX1.F3449A5B-2AC4-4ED7-BF44-4C8946CDB47D
+DEBUG: Adding 20 patches for TCGA-5L-AAT1-01Z-00-DX1.F3449A5B-2AC4-4ED7-BF44-4C8946CDB47D
+DEBUG: Imputed event=1 for 09765b0a-94f6-47d2-af56-93368084ac3a (Prototype Mode)
+DEBUG: Imputed stage 0.0 for TCGA-A7-A0CD-01Z-00-DX1.F045B9C8-049C-41BF-8432-EF89F236D34D
+DEBUG: Adding 40 patches for TCGA-A7-A0CD-01Z-00-DX1.F045B9C8-049C-41BF-8432-EF89F236D34D
+DEBUG: Unique cases before split: 4 -> ['09765b0a-94f6-47d2-af56-93368084ac3a', '16fc3677-0393-4ed1-ad3f-c8355f056369', '444374f8-9282-439c-af00-0f828edcbff3', '6f959c92-b79f-4f84-9ee5-d07d3212d52d']
+Initialized val dataset with 20 patches from 1 patients (Total pool: 4).
+DEBUG: Split Patient IDs: ['6f959c92-b79f-4f84-9ee5-d07d3212d52d']
+Epoch 1/80, Train Loss: 2.2466
+Epoch 1/80, Val Loss: 2.1314
+Saved best model.
+Epoch 2/80, Train Loss: 2.0782
+Epoch 2/80, Val Loss: 2.1230
+Saved best model.
+Epoch 3/80, Train Loss: 2.0371
+Epoch 3/80, Val Loss: 2.1442
+Epoch 4/80, Train Loss: 1.8315
+Epoch 4/80, Val Loss: 2.1796
+Epoch 5/80, Train Loss: 1.7601
+Epoch 5/80, Val Loss: 2.2339
+Epoch 6/80, Train Loss: 1.7947
+Epoch 6/80, Val Loss: 2.2760
+Epoch 7/80, Train Loss: 1.7678
+Epoch 7/80, Val Loss: 2.3399
+Epoch 8/80, Train Loss: 1.7875
+Epoch 8/80, Val Loss: 2.4403
+Epoch 9/80, Train Loss: 1.7269
+Epoch 9/80, Val Loss: 2.5252
+Epoch 10/80, Train Loss: 1.6756
+Epoch 10/80, Val Loss: 2.6411
+Epoch 11/80, Train Loss: 1.8928
+Epoch 11/80, Val Loss: 2.7484
+Epoch 12/80, Train Loss: 1.7880
+Epoch 12/80, Val Loss: 2.7939
+Epoch 13/80, Train Loss: 1.7172
+Epoch 13/80, Val Loss: 2.7660
+Epoch 14/80, Train Loss: 1.7541
+Epoch 14/80, Val Loss: 2.5992
+Epoch 15/80, Train Loss: 1.7728
+Epoch 15/80, Val Loss: 2.5475
+Epoch 16/80, Train Loss: 1.6241
+Epoch 16/80, Val Loss: 2.5726
+Epoch 17/80, Train Loss: 1.7063
+Epoch 17/80, Val Loss: 2.6301
+Epoch 18/80, Train Loss: 1.9168
+Epoch 18/80, Val Loss: 2.7576
+Epoch 19/80, Train Loss: 1.7065
+Epoch 19/80, Val Loss: 2.8959
+Epoch 20/80, Train Loss: 1.6342
+Epoch 20/80, Val Loss: 3.0087
+Epoch 21/80, Train Loss: 1.7066
+Epoch 21/80, Val Loss: 3.0230
+Epoch 22/80, Train Loss: 1.7993
+Epoch 22/80, Val Loss: 2.9534
+Epoch 23/80, Train Loss: 1.7095
+Epoch 23/80, Val Loss: 2.8789
+Epoch 24/80, Train Loss: 1.6745
+Epoch 24/80, Val Loss: 2.8501
+Epoch 25/80, Train Loss: 1.6512
+Epoch 25/80, Val Loss: 2.7660
+Epoch 26/80, Train Loss: 1.8143
+Epoch 26/80, Val Loss: 2.6860
+Epoch 27/80, Train Loss: 1.6403
+Epoch 27/80, Val Loss: 2.7017
+Epoch 28/80, Train Loss: 1.8172
+Epoch 28/80, Val Loss: 2.7649
+Epoch 29/80, Train Loss: 1.6659
+Epoch 29/80, Val Loss: 2.7997
+Epoch 30/80, Train Loss: 1.6585
+Epoch 30/80, Val Loss: 2.7900
+Epoch 31/80, Train Loss: 1.5639
+Epoch 31/80, Val Loss: 2.8798
+Epoch 32/80, Train Loss: 1.6669
+Epoch 32/80, Val Loss: 3.0880
+Epoch 33/80, Train Loss: 1.8216
+Epoch 33/80, Val Loss: 3.2288
+Epoch 34/80, Train Loss: 1.6821
+Epoch 34/80, Val Loss: 3.2374
+Epoch 35/80, Train Loss: 1.7510
+Epoch 35/80, Val Loss: 3.2022
+Epoch 36/80, Train Loss: 1.5585
+Epoch 36/80, Val Loss: 3.0988
+Epoch 37/80, Train Loss: 1.6162
+Epoch 37/80, Val Loss: 3.0770
+Epoch 38/80, Train Loss: 1.6523
+Epoch 38/80, Val Loss: 3.0773
+Epoch 39/80, Train Loss: 1.5748
+Epoch 39/80, Val Loss: 3.0462
+Epoch 40/80, Train Loss: 1.6140
+Epoch 40/80, Val Loss: 2.9710
+Epoch 41/80, Train Loss: 1.7320
+Epoch 41/80, Val Loss: 2.9024
+Epoch 42/80, Train Loss: 1.6637
+Epoch 42/80, Val Loss: 2.8105
+Epoch 43/80, Train Loss: 1.5420
+Epoch 43/80, Val Loss: 2.7100
+Epoch 44/80, Train Loss: 1.5872
+Epoch 44/80, Val Loss: 2.6360
+Epoch 45/80, Train Loss: 1.7454
+Epoch 45/80, Val Loss: 2.5166
+Epoch 46/80, Train Loss: 1.5990
+Epoch 46/80, Val Loss: 2.4492
+Epoch 47/80, Train Loss: 1.5515
+Epoch 47/80, Val Loss: 2.4157
+Epoch 48/80, Train Loss: 1.8696
+Epoch 48/80, Val Loss: 2.3790
+Epoch 49/80, Train Loss: 1.8670
+Epoch 49/80, Val Loss: 2.4113
+Epoch 50/80, Train Loss: 1.5747
+Epoch 50/80, Val Loss: 2.3931
+Epoch 51/80, Train Loss: 1.6517
+Epoch 51/80, Val Loss: 2.3993
+Epoch 52/80, Train Loss: 1.5767
+Epoch 52/80, Val Loss: 2.4285
+Epoch 53/80, Train Loss: 1.5878
+Epoch 53/80, Val Loss: 2.4610
+Epoch 54/80, Train Loss: 1.6710
+Epoch 54/80, Val Loss: 2.5168
+Epoch 55/80, Train Loss: 1.6414
+Epoch 55/80, Val Loss: 2.5723
+Epoch 56/80, Train Loss: 1.6720
+Epoch 56/80, Val Loss: 2.6397
+Epoch 57/80, Train Loss: 1.5736
+Epoch 57/80, Val Loss: 2.6770
+Epoch 58/80, Train Loss: 1.6848
+Epoch 58/80, Val Loss: 2.6632
+Epoch 59/80, Train Loss: 1.5963
+Epoch 59/80, Val Loss: 2.6521
+Epoch 60/80, Train Loss: 1.5729
+Epoch 60/80, Val Loss: 2.6253
+Epoch 61/80, Train Loss: 1.6573
+Epoch 61/80, Val Loss: 2.6213
+Epoch 62/80, Train Loss: 1.6259
+Epoch 62/80, Val Loss: 2.5158
+Epoch 63/80, Train Loss: 1.5788
+Epoch 63/80, Val Loss: 2.4424
+Epoch 64/80, Train Loss: 1.5828
+Epoch 64/80, Val Loss: 2.4266
+Epoch 65/80, Train Loss: 1.5103
+Epoch 65/80, Val Loss: 2.4375
+Epoch 66/80, Train Loss: 1.6239
+Epoch 66/80, Val Loss: 2.4438
+Epoch 67/80, Train Loss: 1.6473
+Epoch 67/80, Val Loss: 2.4631
+Epoch 68/80, Train Loss: 1.6146
+Epoch 68/80, Val Loss: 2.5040
+Epoch 69/80, Train Loss: 1.5278
+Epoch 69/80, Val Loss: 2.5476
+Epoch 70/80, Train Loss: 1.6271
+Epoch 70/80, Val Loss: 2.5901
+Epoch 71/80, Train Loss: 1.6358
+Epoch 71/80, Val Loss: 2.5962
+Epoch 72/80, Train Loss: 1.6106
+Epoch 72/80, Val Loss: 2.6019
+Epoch 73/80, Train Loss: 1.6472
+Epoch 73/80, Val Loss: 2.6039
+Epoch 74/80, Train Loss: 1.4953
+Epoch 74/80, Val Loss: 2.5844
+Epoch 75/80, Train Loss: 1.5390
+Epoch 75/80, Val Loss: 2.6129
+Epoch 76/80, Train Loss: 1.6072
+Epoch 76/80, Val Loss: 2.6316
+Epoch 77/80, Train Loss: 1.6697
+Epoch 77/80, Val Loss: 2.5821
+Epoch 78/80, Train Loss: 1.6455
+Epoch 78/80, Val Loss: 2.5158
+Epoch 79/80, Train Loss: 1.6334
+Epoch 79/80, Val Loss: 2.4726
+Epoch 80/80, Train Loss: 1.6876
+Epoch 80/80, Val Loss: 2.4296
+Training complete.
+----------------------------------------------------------------
+Phase 3: Starting Generative Model Training (Preventive AI)
+----------------------------------------------------------------
+Training Generative Model on cpu
+DEBUG: Slide to Case Map Size: 5
+DEBUG: Found 5 slide folders in data/processed/patches
+DEBUG: Imputed event=1 for 444374f8-9282-439c-af00-0f828edcbff3 (Prototype Mode)
+DEBUG: Imputed stage 0.0 for TCGA-C8-A1HI-01Z-00-DX1.C6D0F8B8-55ED-477F-BAF7-AA05D0449CC8
+DEBUG: Adding 20 patches for TCGA-C8-A1HI-01Z-00-DX1.C6D0F8B8-55ED-477F-BAF7-AA05D0449CC8
+DEBUG: SKIP TCGA-E2-A14P-01Z-00-DX1.663B02FF-C64B-41A6-8685-FD61CD76F9C6 - No PNG patches found
+DEBUG: Imputed event=1 for 6f959c92-b79f-4f84-9ee5-d07d3212d52d (Prototype Mode)
+DEBUG: Imputed stage 3.0 for TCGA-A8-A09K-01Z-00-DX1.41B2DF5F-C0E1-43BB-BAA5-2946A9EC4650
+DEBUG: Adding 20 patches for TCGA-A8-A09K-01Z-00-DX1.41B2DF5F-C0E1-43BB-BAA5-2946A9EC4650
+DEBUG: Imputed event=1 for 16fc3677-0393-4ed1-ad3f-c8355f056369 (Prototype Mode)
+DEBUG: Imputed stage 3.0 for TCGA-5L-AAT1-01Z-00-DX1.F3449A5B-2AC4-4ED7-BF44-4C8946CDB47D
+DEBUG: Adding 20 patches for TCGA-5L-AAT1-01Z-00-DX1.F3449A5B-2AC4-4ED7-BF44-4C8946CDB47D
+DEBUG: Imputed event=1 for 09765b0a-94f6-47d2-af56-93368084ac3a (Prototype Mode)
+DEBUG: Imputed stage 0.0 for TCGA-A7-A0CD-01Z-00-DX1.F045B9C8-049C-41BF-8432-EF89F236D34D
+DEBUG: Adding 40 patches for TCGA-A7-A0CD-01Z-00-DX1.F045B9C8-049C-41BF-8432-EF89F236D34D
+DEBUG: Unique cases before split: 4 -> ['09765b0a-94f6-47d2-af56-93368084ac3a', '16fc3677-0393-4ed1-ad3f-c8355f056369', '444374f8-9282-439c-af00-0f828edcbff3', '6f959c92-b79f-4f84-9ee5-d07d3212d52d']
+Initialized train dataset with 80 patches from 3 patients (Total pool: 4).
+DEBUG: Split Patient IDs: ['09765b0a-94f6-47d2-af56-93368084ac3a', '16fc3677-0393-4ed1-ad3f-c8355f056369', '444374f8-9282-439c-af00-0f828edcbff3']
+Epoch 0: G Loss 0.3108, D Loss 0.2581
+Epoch 1: G Loss 0.3425, D Loss 0.2235
+Epoch 2: G Loss 0.4802, D Loss 0.2890
+Epoch 3: G Loss 0.3613, D Loss 0.2385
+Epoch 4: G Loss 0.3254, D Loss 0.2876
+Epoch 5: G Loss 0.3124, D Loss 0.2772
+Epoch 6: G Loss 0.3942, D Loss 0.3190
+Epoch 7: G Loss 0.2496, D Loss 0.2832
+Epoch 8: G Loss 0.2684, D Loss 0.2632
+Epoch 9: G Loss 0.4093, D Loss 0.3048
+Epoch 10: G Loss 0.3467, D Loss 0.2651
+Epoch 11: G Loss 0.3032, D Loss 0.2419
+Epoch 12: G Loss 0.2726, D Loss 0.2421
+Epoch 13: G Loss 0.3107, D Loss 0.2466
+Epoch 14: G Loss 0.2909, D Loss 0.2478
+Epoch 15: G Loss 0.3466, D Loss 0.2108
+Epoch 16: G Loss 0.3172, D Loss 0.2137
+Epoch 17: G Loss 0.3377, D Loss 0.2435
+Epoch 18: G Loss 0.5316, D Loss 0.3176
+Epoch 19: G Loss 0.3017, D Loss 0.2216
+Epoch 20: G Loss 0.4308, D Loss 0.2060
+Epoch 21: G Loss 0.4920, D Loss 0.2932
+Epoch 22: G Loss 0.3389, D Loss 0.1814
+Epoch 23: G Loss 0.5636, D Loss 0.1635
+Epoch 24: G Loss 0.4766, D Loss 0.1810
+Epoch 25: G Loss 0.4338, D Loss 0.1613
+Epoch 26: G Loss 0.4150, D Loss 0.1161
+Epoch 27: G Loss 0.6058, D Loss 0.1526
+Epoch 28: G Loss 0.5870, D Loss 0.0978
+Epoch 29: G Loss 0.3645, D Loss 0.1684
+Epoch 30: G Loss 0.7243, D Loss 0.1186
+Epoch 31: G Loss 0.5403, D Loss 0.1901
+Epoch 32: G Loss 0.5835, D Loss 0.0784
+Epoch 33: G Loss 1.1258, D Loss 0.5839
+Epoch 34: G Loss 0.3766, D Loss 0.1536
+Epoch 35: G Loss 0.3482, D Loss 0.1825
+Epoch 36: G Loss 0.5045, D Loss 0.1930
+Epoch 37: G Loss 0.5089, D Loss 0.1476
+Epoch 38: G Loss 0.5687, D Loss 0.1498
+Epoch 39: G Loss 0.4168, D Loss 0.1166
+Epoch 40: G Loss 0.6541, D Loss 0.0876
+Epoch 41: G Loss 0.7442, D Loss 0.0970
+Epoch 42: G Loss 0.6219, D Loss 0.0885
+Epoch 43: G Loss 0.5076, D Loss 0.1307
+Epoch 44: G Loss 0.6128, D Loss 0.1217
+Epoch 45: G Loss 0.6931, D Loss 0.0660
+Epoch 46: G Loss 0.8948, D Loss 0.0427
+Epoch 47: G Loss 1.0566, D Loss 0.1779
+Epoch 48: G Loss 0.5791, D Loss 0.0845
+Epoch 49: G Loss 0.7688, D Loss 0.0551
+Epoch 50: G Loss 0.7899, D Loss 0.0829
+Epoch 51: G Loss 0.7816, D Loss 0.0455
+Epoch 52: G Loss 0.7931, D Loss 0.0483
+Epoch 53: G Loss 0.8062, D Loss 0.0791
+Epoch 54: G Loss 0.5809, D Loss 0.0827
+Epoch 55: G Loss 0.6737, D Loss 0.0534
+Epoch 56: G Loss 0.7160, D Loss 0.0439
+Epoch 57: G Loss 1.1154, D Loss 0.0820
+Epoch 58: G Loss 0.4194, D Loss 0.1263
+Epoch 59: G Loss 1.1147, D Loss 0.0563
+Epoch 60: G Loss 0.9272, D Loss 0.0605
+Epoch 61: G Loss 0.9202, D Loss 0.0293
+Epoch 62: G Loss 0.8544, D Loss 0.0238
+Epoch 63: G Loss 0.7361, D Loss 0.0360
+Epoch 64: G Loss 0.7966, D Loss 0.0602
+Epoch 65: G Loss 0.7481, D Loss 0.0507
+Epoch 66: G Loss 0.8485, D Loss 0.0279
+Epoch 67: G Loss 0.9423, D Loss 0.0389
+Epoch 68: G Loss 1.0523, D Loss 0.0625
+Epoch 69: G Loss 0.7406, D Loss 0.0516
+Epoch 70: G Loss 0.8504, D Loss 0.0713
+Epoch 71: G Loss 1.1021, D Loss 0.0484
+Epoch 72: G Loss 0.8675, D Loss 0.0320
+Epoch 73: G Loss 1.0466, D Loss 0.0674
+Epoch 74: G Loss 0.8823, D Loss 0.0261
+Epoch 75: G Loss 0.6884, D Loss 0.0329
+Epoch 76: G Loss 0.8919, D Loss 0.0151
+Epoch 77: G Loss 0.8312, D Loss 0.0187
+Epoch 78: G Loss 0.8736, D Loss 0.1037
+Epoch 79: G Loss 0.9061, D Loss 0.0279
+----------------------------------------------------------------
+Pipeline Complete.
+----------------------------------------------------------------

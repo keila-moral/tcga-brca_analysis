@@ -1,0 +1,811 @@
+[
+    {
+        "id": "e3935ce4-64d3-4a66-ba11-d308b844b410",
+        "case_id": "e3935ce4-64d3-4a66-ba11-d308b844b410",
+        "submitter_id": "TCGA-E9-A5FL",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 24.0,
+                "age_at_diagnosis": 24053
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "e3b555aa-7f0a-49c6-9b13-182c61a144c1",
+        "case_id": "e3b555aa-7f0a-49c6-9b13-182c61a144c1",
+        "submitter_id": "TCGA-A2-A1G4",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 595.0,
+                "age_at_diagnosis": 25966
+            },
+            {
+                "age_at_diagnosis": null
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "17ca61a2-607a-45ff-88fa-ef72e80bf891",
+        "case_id": "17ca61a2-607a-45ff-88fa-ef72e80bf891",
+        "submitter_id": "TCGA-BH-A0HF",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 727.0,
+                "age_at_diagnosis": 28233
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not reported"
+        }
+    },
+    {
+        "id": "7d681cc6-689d-41c8-9e84-e13733089ec9",
+        "case_id": "7d681cc6-689d-41c8-9e84-e13733089ec9",
+        "submitter_id": "TCGA-AR-A1AS",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 1150.0,
+                "age_at_diagnosis": 20028
+            }
+        ],
+        "demographic": {
+            "race": "asian",
+            "gender": "female",
+            "ethnicity": "not reported"
+        }
+    },
+    {
+        "id": "17f275c1-a0d4-487d-8f02-ea279584b4cd",
+        "case_id": "17f275c1-a0d4-487d-8f02-ea279584b4cd",
+        "submitter_id": "TCGA-D8-A13Y",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 1728.0,
+                "age_at_diagnosis": 19028
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "189e1f27-7738-413a-a4d4-97d41d592a13",
+        "case_id": "189e1f27-7738-413a-a4d4-97d41d592a13",
+        "submitter_id": "TCGA-A2-A3XV",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 996.0,
+                "age_at_diagnosis": 16971
+            }
+        ],
+        "demographic": {
+            "race": "black or african american",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "95c53ecf-d8f1-4bcb-9b1a-c9a0542939f0",
+        "case_id": "95c53ecf-d8f1-4bcb-9b1a-c9a0542939f0",
+        "submitter_id": "TCGA-LD-A9QF",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 323.0,
+                "age_at_diagnosis": 26869
+            }
+        ],
+        "demographic": {
+            "race": "black or african american",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "c0f88fc5-56b0-4255-bbd1-9a21ced8b37b",
+        "case_id": "c0f88fc5-56b0-4255-bbd1-9a21ced8b37b",
+        "submitter_id": "TCGA-EW-A1IZ",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 554.0,
+                "age_at_diagnosis": 19706
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "0f64edec-0f1f-4025-8a53-75f9534f7828",
+        "case_id": "0f64edec-0f1f-4025-8a53-75f9534f7828",
+        "submitter_id": "TCGA-BH-A0H9",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 1247.0,
+                "age_at_diagnosis": 25289
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not reported"
+        }
+    },
+    {
+        "id": "c25898b4-eb33-42f4-bf3f-bf532a929e7d",
+        "case_id": "c25898b4-eb33-42f4-bf3f-bf532a929e7d",
+        "submitter_id": "TCGA-AO-A1KO",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 622.0,
+                "age_at_diagnosis": 16817
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "195b6731-6ae6-416e-a345-0eb8874a0ca2",
+        "case_id": "195b6731-6ae6-416e-a345-0eb8874a0ca2",
+        "submitter_id": "TCGA-AN-A0XO",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 375.0,
+                "age_at_diagnosis": 21640
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "7f97971b-2818-4e4b-9c9e-7c0246f9484c",
+        "case_id": "7f97971b-2818-4e4b-9c9e-7c0246f9484c",
+        "submitter_id": "TCGA-D8-A27K",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 1461.0,
+                "age_at_diagnosis": 17426
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "c348a9b3-c901-4384-a222-144387bac0c5",
+        "case_id": "c348a9b3-c901-4384-a222-144387bac0c5",
+        "submitter_id": "TCGA-BH-A1FU",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 1688.0,
+                "age_at_diagnosis": 16174
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "c364e81c-eb1e-4870-ab37-9c661f5f2e3d",
+        "case_id": "c364e81c-eb1e-4870-ab37-9c661f5f2e3d",
+        "submitter_id": "TCGA-AR-A0TX",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 1972.0,
+                "age_at_diagnosis": 23653
+            }
+        ],
+        "demographic": {
+            "race": "not reported",
+            "gender": "female",
+            "ethnicity": "not reported"
+        }
+    },
+    {
+        "id": "5258294f-ef5b-4091-9183-6bcc545d54b2",
+        "case_id": "5258294f-ef5b-4091-9183-6bcc545d54b2",
+        "submitter_id": "TCGA-BH-A209",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 3959.0,
+                "age_at_diagnosis": 28403
+            }
+        ],
+        "demographic": {
+            "race": "black or african american",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "bb8d42d3-ad65-4d88-ae1d-f9aadfc7962d",
+        "case_id": "bb8d42d3-ad65-4d88-ae1d-f9aadfc7962d",
+        "submitter_id": "TCGA-AO-A1KS",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 350.0,
+                "age_at_diagnosis": 25230
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "c462e422-eb8d-4daf-9897-2a9c6cbd783a",
+        "case_id": "c462e422-eb8d-4daf-9897-2a9c6cbd783a",
+        "submitter_id": "TCGA-A1-A0SD",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 437.0,
+                "age_at_diagnosis": 21793
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "2476dda9-da2a-4242-9642-b92b8b9b1c79",
+        "case_id": "2476dda9-da2a-4242-9642-b92b8b9b1c79",
+        "submitter_id": "TCGA-B6-A0IH",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 2965.0,
+                "age_at_diagnosis": 29907
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "c57835be-77ab-4cf5-9b23-62c11a7b2eaf",
+        "case_id": "c57835be-77ab-4cf5-9b23-62c11a7b2eaf",
+        "submitter_id": "TCGA-AC-A2QI",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 588.0,
+                "age_at_diagnosis": 27865
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "9f93ea0a-1687-44e0-9e8a-eeb4097d471c",
+        "case_id": "9f93ea0a-1687-44e0-9e8a-eeb4097d471c",
+        "submitter_id": "TCGA-A2-A0CZ",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 1616.0,
+                "age_at_diagnosis": 17026
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "3828b534-908e-4953-a3fb-07d01cf49c7d",
+        "case_id": "3828b534-908e-4953-a3fb-07d01cf49c7d",
+        "submitter_id": "TCGA-A8-A09B",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 365.0,
+                "age_at_diagnosis": 21520
+            }
+        ],
+        "demographic": {
+            "race": "not reported",
+            "gender": "female",
+            "ethnicity": "not reported"
+        }
+    },
+    {
+        "id": "14267783-5624-4fe5-ba81-9d67f1017474",
+        "case_id": "14267783-5624-4fe5-ba81-9d67f1017474",
+        "submitter_id": "TCGA-BH-A0DP",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 476.0,
+                "age_at_diagnosis": 22199
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not reported"
+        }
+    },
+    {
+        "id": "c694615c-b1c6-499c-8058-995633ebf948",
+        "case_id": "c694615c-b1c6-499c-8058-995633ebf948",
+        "submitter_id": "TCGA-E9-A1RF",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 200.0,
+                "age_at_diagnosis": 25119
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "a06ff6ae-b0dd-4516-a75c-0db71694b46b",
+        "case_id": "a06ff6ae-b0dd-4516-a75c-0db71694b46b",
+        "submitter_id": "TCGA-LD-A7W5",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 216.0,
+                "age_at_diagnosis": 19169
+            }
+        ],
+        "demographic": {
+            "race": "black or african american",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "a0963e93-b63e-4de2-86c1-81302e271d3e",
+        "case_id": "a0963e93-b63e-4de2-86c1-81302e271d3e",
+        "submitter_id": "TCGA-AR-A250",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 2707.0,
+                "age_at_diagnosis": 21309
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "738e1acc-1f0c-4a96-9c8a-222727ef5af8",
+        "case_id": "738e1acc-1f0c-4a96-9c8a-222727ef5af8",
+        "submitter_id": "TCGA-AR-A2LJ",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 2632.0,
+                "age_at_diagnosis": 14723
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "a1093598-d3a8-4ffe-83fc-bc7d1faff7e5",
+        "case_id": "a1093598-d3a8-4ffe-83fc-bc7d1faff7e5",
+        "submitter_id": "TCGA-BH-A1EU",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 1286.0,
+                "age_at_diagnosis": 30339
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "a12fd22a-7f84-4b6e-b6d8-012e38eb73d7",
+        "case_id": "a12fd22a-7f84-4b6e-b6d8-012e38eb73d7",
+        "submitter_id": "TCGA-AR-A1AW",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 2632.0,
+                "age_at_diagnosis": 23855
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "a5b44d66-c162-46b5-9df2-86305f0385c5",
+        "case_id": "a5b44d66-c162-46b5-9df2-86305f0385c5",
+        "submitter_id": "TCGA-A1-A0SK",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 967.0,
+                "age_at_diagnosis": 20048
+            }
+        ],
+        "demographic": {
+            "race": "asian",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "64975923-d032-4182-8565-59fc37127d8d",
+        "case_id": "64975923-d032-4182-8565-59fc37127d8d",
+        "submitter_id": "TCGA-D8-A1XT",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 506.0,
+                "age_at_diagnosis": 22448
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "e8ea576b-eb16-44f7-b241-daefc1375388",
+        "case_id": "e8ea576b-eb16-44f7-b241-daefc1375388",
+        "submitter_id": "TCGA-A7-A6VY",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 266.0,
+                "age_at_diagnosis": 17640
+            }
+        ],
+        "demographic": {
+            "race": "black or african american",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "ee14e049-b891-4dda-a730-8ce99bd93baf",
+        "case_id": "ee14e049-b891-4dda-a730-8ce99bd93baf",
+        "submitter_id": "TCGA-D8-A1XC",
+        "diagnoses": [
+            {
+                "age_at_diagnosis": null
+            },
+            {
+                "days_to_last_follow_up": 377.0,
+                "age_at_diagnosis": 31220
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "9da462b0-93c2-4305-89f6-7199a30399a7",
+        "case_id": "9da462b0-93c2-4305-89f6-7199a30399a7",
+        "submitter_id": "TCGA-BH-A0B5",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 2136.0,
+                "age_at_diagnosis": 14920
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "659b0170-e914-45ff-aa55-fcb8d3dc7b8a",
+        "case_id": "659b0170-e914-45ff-aa55-fcb8d3dc7b8a",
+        "submitter_id": "TCGA-E9-A1NG",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 786.0,
+                "age_at_diagnosis": 22896
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "359f12f9-5c41-48a4-85bc-fd7e307bf7d8",
+        "case_id": "359f12f9-5c41-48a4-85bc-fd7e307bf7d8",
+        "submitter_id": "TCGA-EW-A1P8",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 239.0,
+                "age_at_diagnosis": 21501
+            },
+            {
+                "age_at_diagnosis": 21708
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "c31900a4-5dcd-4022-97ac-638e86e889e4",
+        "case_id": "c31900a4-5dcd-4022-97ac-638e86e889e4",
+        "submitter_id": "TCGA-3C-AALK",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 1448.0,
+                "age_at_diagnosis": 19074
+            }
+        ],
+        "demographic": {
+            "race": "black or african american",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "546248b0-22a0-4b70-a437-76fb0a238a0d",
+        "case_id": "546248b0-22a0-4b70-a437-76fb0a238a0d",
+        "submitter_id": "TCGA-AN-A0FJ",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 242.0,
+                "age_at_diagnosis": 21910
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "bb026999-0aab-4232-96d7-2c93b6c9691d",
+        "case_id": "bb026999-0aab-4232-96d7-2c93b6c9691d",
+        "submitter_id": "TCGA-A2-A3KD",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 1206.0,
+                "age_at_diagnosis": 17372
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "52c35691-efca-42f5-a03e-02c9f872275c",
+        "case_id": "52c35691-efca-42f5-a03e-02c9f872275c",
+        "submitter_id": "TCGA-C8-A1HK",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 366.0,
+                "age_at_diagnosis": null
+            }
+        ],
+        "demographic": {
+            "race": "asian",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "5562455d-bbb8-46eb-a510-e8c6e1e26789",
+        "case_id": "5562455d-bbb8-46eb-a510-e8c6e1e26789",
+        "submitter_id": "TCGA-B6-A0RL",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 2469.0,
+                "age_at_diagnosis": 22238
+            }
+        ],
+        "demographic": {
+            "race": "black or african american",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "557cb0a3-6f1b-4faf-8296-0a15c24158f9",
+        "case_id": "557cb0a3-6f1b-4faf-8296-0a15c24158f9",
+        "submitter_id": "TCGA-BH-A18P",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 921.0,
+                "age_at_diagnosis": 22222
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not reported"
+        }
+    },
+    {
+        "id": "a6502f17-6bee-4d5a-8520-06364593d39c",
+        "case_id": "a6502f17-6bee-4d5a-8520-06364593d39c",
+        "submitter_id": "TCGA-EW-A424",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 715.0,
+                "age_at_diagnosis": 18850
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "hispanic or latino"
+        }
+    },
+    {
+        "id": "56203436-8634-4fd0-96b5-ba6be9d87857",
+        "case_id": "56203436-8634-4fd0-96b5-ba6be9d87857",
+        "submitter_id": "TCGA-D8-A1JK",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 0.0,
+                "age_at_diagnosis": 32872
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "27dfb9d4-3a2c-44bc-9acf-8f638d3f3004",
+        "case_id": "27dfb9d4-3a2c-44bc-9acf-8f638d3f3004",
+        "submitter_id": "TCGA-BH-A0GZ",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 328.0,
+                "age_at_diagnosis": 22714
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not reported"
+        }
+    },
+    {
+        "id": "8cf54607-01ce-42b0-9bd9-8627edd9f3b7",
+        "case_id": "8cf54607-01ce-42b0-9bd9-8627edd9f3b7",
+        "submitter_id": "TCGA-C8-A130",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 370.0,
+                "age_at_diagnosis": 19117
+            }
+        ],
+        "demographic": {
+            "race": "asian",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "095c7985-3842-494f-b591-706ad1cd2133",
+        "case_id": "095c7985-3842-494f-b591-706ad1cd2133",
+        "submitter_id": "TCGA-AO-A03M",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 1866.0,
+                "age_at_diagnosis": 10616
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "b5b99291-507e-4b68-a039-9a0f571f55df",
+        "case_id": "b5b99291-507e-4b68-a039-9a0f571f55df",
+        "submitter_id": "TCGA-AO-A12H",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 1234.0,
+                "age_at_diagnosis": 25515
+            }
+        ],
+        "demographic": {
+            "race": "black or african american",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "8d9b50d1-139b-4447-ae9c-e54764d9e2a7",
+        "case_id": "8d9b50d1-139b-4447-ae9c-e54764d9e2a7",
+        "submitter_id": "TCGA-AC-A6NO",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 51.0,
+                "age_at_diagnosis": 15996
+            }
+        ],
+        "demographic": {
+            "race": "black or african american",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "8db69f1d-72e2-40ba-ad8a-cf228499840d",
+        "case_id": "8db69f1d-72e2-40ba-ad8a-cf228499840d",
+        "submitter_id": "TCGA-C8-A8HP",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 396.0,
+                "age_at_diagnosis": 21613
+            }
+        ],
+        "demographic": {
+            "race": "asian",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    },
+    {
+        "id": "d1fd8ed2-be13-4272-b31e-df86911db3b1",
+        "case_id": "d1fd8ed2-be13-4272-b31e-df86911db3b1",
+        "submitter_id": "TCGA-AR-A24P",
+        "diagnoses": [
+            {
+                "days_to_last_follow_up": 84.0,
+                "age_at_diagnosis": 17490
+            }
+        ],
+        "demographic": {
+            "race": "white",
+            "gender": "female",
+            "ethnicity": "not hispanic or latino"
+        }
+    }
+]
