@@ -2,6 +2,10 @@
 
 ## Issues common to several phases:
 
+ **Pipeline architecture**
+
+- **Lack of complete modularity**: This script assumes that dataset preprocessing has already been run. TCGAPatchDataset(split="train") must provide pre-extracted image patches with numeric stage labels, and the training split must contain both early (stage <= 2) and late (stage <= 3) samples. If these prerequisites are missing, training will skip batches or fail silently. Although checkpoints are saved, the script always starts from scratch and does not resume from previous runs.
+
  **Dataset**
 
 - **Limited Image Dataset Size**: As a prototype, the primary challenge is the extremely small dataset used for training and evaluation. Patient data downloads take significant time; while API access was considered as an alternative, connectivity problems led to preferring a reduced local dataset for this initial project phase.
@@ -19,13 +23,15 @@
 
 ### Phase 1
 
-- **Model Architecture**:
+ **Model Architecture**:
 
 ### Phase 2
 
-- **Model Architecture**:
+ **Model Architecture**:
 
 ### Phase 3
+
+**Model Architecture**:
 
 - **Generator vs. Discriminator imbalance**:
 
